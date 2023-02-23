@@ -1,0 +1,7 @@
+int fun(Node* root)
+{
+  if(root==NULL) return 0; 
+  int left=fun(root->left); 
+  int right=fun(root->right); 
+  return 1+max(left,right); 
+}
