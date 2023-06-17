@@ -1,3 +1,6 @@
+// See Striver Video once to see how to make child sum property in a given binary tree. 
+// L-29.
+
 // Check Whether Given Binary Tree Follows Child Sum Property or Not.
 
  int isSumProperty(Node *root)
